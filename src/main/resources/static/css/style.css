@@ -1,0 +1,32 @@
+/* Folder styling */
+.category-section {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.category-header {
+    background-color: #f8f9fa;
+    padding: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Shadowed effect for completed tasks */
+.task-completed {
+    background-color: #f9f9f9 !important;
+    opacity: 0.6;
+}
+
+.task-completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Priority Colors */
+.priority-HIGH { color: #d9534f; font-weight: bold; }
+.priority-MEDIUM { color: #f0ad4e; }
+.priority-LOW { color: #5cb85c; }
